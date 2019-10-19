@@ -60,9 +60,9 @@ const IndexPage = ({ data }) => {
           {ep.published_at}
         </p>
         <div className="block mb-2">
-          {ep.guests.map(guest => {
+          {ep.guests.map((guest, i) => {
             return (
-              <span className="text-sm text-gray-800 border-b mr-2">
+              <span key={i} className="text-sm text-gray-800 border-b mr-2">
                 {guest}
               </span>
             )
@@ -90,12 +90,13 @@ const IndexPage = ({ data }) => {
       <SEO title="Home" />
       <div className="lg:fixed lg:inset-y-0 lg:left-0 lg:right-400 h-screen">
         <iframe
+          title="Player"
           src={url}
           scrolling="no"
           border="0"
-          frameborder="no"
+          frameBorder="no"
           framespacing="0"
-          allowfullscreen="true"
+          allowFullScreen={true}
           width="100%"
           height="100%"
         />

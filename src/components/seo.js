@@ -67,6 +67,10 @@ function SEO({ description, lang, meta, title }) {
           name: `twitter:description`,
           content: metaDescription,
         },
+        {
+          "http-equiv": "Content-Security-Policy",
+          content: "upgrade-insecure-requests",
+        },
       ].concat(meta)}
     />
   )
