@@ -1,0 +1,41 @@
+{
+  "name": "runningman",
+  "private": true,
+  "description": "SBS Running Man 补全计划",
+  "version": "0.1.0",
+  "author": "Jin Liu <coolziljin@gmail.com>",
+  "dependencies": {
+    "gatsby": "^2.16.1",
+    "gatsby-plugin-postcss": "^2.1.13",
+    "gatsby-plugin-react-helmet": "^3.1.13",
+    "gatsby-source-filesystem": "^2.1.33",
+    "gatsby-transformer-json": "^2.2.15",
+    "prop-types": "^15.7.2",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-helmet": "^5.2.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2",
+    "tailwindcss": "^1.1.2"
+  },
+  "keywords": [
+    "gatsby",
+    "running man"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coolzilj/runningman"
+  },
+  "bugs": {
+    "url": "https://github.com/coolzilj/runningman/issues"
+  }
+}
