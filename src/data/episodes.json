@@ -501,9 +501,10 @@
     "guests": [
       "裴秀智"
     ],
-    "downloaded_from": "https://www.bilibili.com/video/av52024578",
+    "downloaded_from": "",
     "downloaded_format": "flv",
     "srcs": [
+      "https://www.bilibili.com/video/av59014503",
       "https://www.bilibili.com/video/av52024578"
     ]
   },
@@ -631,7 +632,8 @@
     "downloaded_from": "https://www.bilibili.com/video/av46909195",
     "downloaded_format": "flv",
     "srcs": [
-      "https://www.bilibili.com/video/av46909195"
+      "https://www.bilibili.com/video/av46909195",
+      "https://www.bilibili.com/video/av58838452"
     ]
   },
   {
@@ -807,9 +809,10 @@
       "柳贤振",
       "姜正浩"
     ],
-    "downloaded_from": "https://www.bilibili.com/video/av26809633",
+    "downloaded_from": "https://www.bilibili.com/video/av25846018/?p=2",
     "downloaded_format": "flv",
     "srcs": [
+      "https://www.bilibili.com/video/av25846018/?p=2",
       "https://www.bilibili.com/video/av26809633"
     ]
   },
