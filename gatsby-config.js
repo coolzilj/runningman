@@ -15,5 +15,18 @@ module.exports = {
     },
     `gatsby-transformer-json`,
     `gatsby-plugin-postcss`,
+    {
+      resolve: `gatsby-plugin-baidu-analytics`,
+      options: {
+        siteId: "035e1673c7cfcf1a6535c1baef1035cc",
+        head: false,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-33100535-1",
+      },
+    },
   ],
 }
