@@ -14,7 +14,8 @@ raise '缺少年份，正确使用方法: ./download.rb year [limit]' unless yea
 limit = ARGV[1] || 9_999_999_999
 downloaded = 0
 
-data_path = File.join(File.dirname(__FILE__), "./episodes/#{year}.json")
+script_path = File.symlink?(__FILE__) ? File.readlink(__FILE__) : __FILE__
+data_path = File.join(File.dirname(script_path), "./episodes/#{year}.json")
 eps = JSON.parse(File.read(data_path))
 eps.each do |ep|
   id = ep['id']
@@ -24,7 +25,7 @@ eps.each do |ep|
     puts "#{id} 已下载"
   else
     puts "#{id} 正在下载..."
-    system("annie -o ./videos/ -O #{id} #{url}")
+    system("annie -o #{base_path} -O #{id} #{url}")
     # sleep 5
     downloaded += 1
     break if downloaded >= limit.to_i
