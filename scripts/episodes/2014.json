@@ -39,11 +39,7 @@
     "id": "181",
     "title": "乡村罗曼史",
     "published_at": "20140119",
-    "guests": [
-      "李钟硕",
-      "朴宝英",
-      "李世英"
-    ],
+    "guests": ["李钟硕", "朴宝英", "李世英"],
     "srcs": [
       "https://www.bilibili.com/video/av71889837",
       "https://www.bilibili.com/video/av26628519",
@@ -55,11 +51,7 @@
     "id": "182",
     "title": "象棋追击战",
     "published_at": "20140126",
-    "guests": [
-      "吕珍九",
-      "林时完",
-      "敏度希"
-    ],
+    "guests": ["吕珍九", "林时完", "敏度希"],
     "srcs": [
       "https://www.bilibili.com/video/av71855645",
       "https://www.bilibili.com/video/av48675953"
@@ -69,11 +61,7 @@
     "id": "183",
     "title": "命运的伴侣",
     "published_at": "20140202",
-    "guests": [
-      "文素利",
-      "严正花",
-      "赵敏秀"
-    ],
+    "guests": ["文素利", "严正花", "赵敏秀"],
     "srcs": [
       "https://www.bilibili.com/video/av71856851",
       "https://www.bilibili.com/video/av34091343"
@@ -83,13 +71,7 @@
     "id": "184",
     "title": "Rm第二届冬奥会",
     "published_at": "20140209",
-    "guests": [
-      "徐仁国",
-      "BARO",
-      "姜艺媛",
-      "朴瑞俊",
-      "孙浩俊"
-    ],
+    "guests": ["徐仁国", "BARO", "姜艺媛", "朴瑞俊", "孙浩俊"],
     "srcs": [
       "https://www.bilibili.com/video/av71913096",
       "https://www.bilibili.com/video/av45242059"
@@ -109,13 +91,7 @@
     "id": "186",
     "title": "首尔文化使节团",
     "published_at": "20140223",
-    "guests": [
-      "郑容和",
-      "李宗泫",
-      "姜敏赫",
-      "李正信",
-      "沈恩京"
-    ],
+    "guests": ["郑容和", "李宗泫", "姜敏赫", "李正信", "沈恩京"],
     "srcs": [
       "https://www.bilibili.com/video/av71960963",
       "https://www.bilibili.com/video/av34250536"
@@ -136,10 +112,7 @@
     "id": "188",
     "title": "澳洲特辑(上)",
     "published_at": "20140309",
-    "guests": [
-      "Rain",
-      "金宇彬"
-    ],
+    "guests": ["Rain", "金宇彬"],
     "srcs": [
       "https://www.bilibili.com/video/av71927151",
       "https://www.bilibili.com/video/av41546964/?p=1"
@@ -149,10 +122,7 @@
     "id": "189",
     "title": "澳洲特辑(中)",
     "published_at": "20140316",
-    "guests": [
-      "Rain",
-      "金宇彬"
-    ],
+    "guests": ["Rain", "金宇彬"],
     "srcs": [
       "https://www.bilibili.com/video/av71928326",
       "https://www.bilibili.com/video/av41546964/?p=2"
@@ -181,10 +151,7 @@
     "id": "191",
     "title": "澳洲特辑(下)",
     "published_at": "20140330",
-    "guests": [
-      "Rain",
-      "金宇彬"
-    ],
+    "guests": ["Rain", "金宇彬"],
     "srcs": [
       "https://www.bilibili.com/video/av71929811",
       "https://www.bilibili.com/video/av41546964/?p=3"
@@ -412,9 +379,7 @@
     "id": "204",
     "title": "白雪公主的BoBo",
     "published_at": "20140713",
-    "guests": [
-      "柳承修"
-    ],
+    "guests": ["柳承修"],
     "srcs": [
       "https://www.bilibili.com/video/av73032270",
       "https://www.bilibili.com/video/av28676843/?p=2"
@@ -424,13 +389,7 @@
     "id": "205",
     "title": "最强打工生",
     "published_at": "20140720",
-    "guests": [
-      "李国珠",
-      "白智英",
-      "洪真英",
-      "王霏霏",
-      "姜承贤"
-    ],
+    "guests": ["李国珠", "白智英", "洪真英", "王霏霏", "姜承贤"],
     "srcs": [
       "https://www.bilibili.com/video/av73045277/?p=1",
       "https://www.bilibili.com/video/av49109308"
@@ -440,10 +399,7 @@
     "id": "206",
     "title": "DIY料理对决",
     "published_at": "20140727",
-    "guests": [
-      "周元",
-      "洪锡天"
-    ],
+    "guests": ["周元", "洪锡天"],
     "srcs": [
       "https://www.bilibili.com/video/av73055019/?p=1",
       "https://www.bilibili.com/video/av2594269"
@@ -453,13 +409,7 @@
     "id": "207",
     "title": "王鼻子的朋友 Vs RM",
     "published_at": "20140803",
-    "guests": [
-      "南希石",
-      "朴秀洪",
-      "金济东",
-      "金希澈",
-      "李素妍"
-    ],
+    "guests": ["南希石", "朴秀洪", "金济东", "金希澈", "李素妍"],
     "srcs": [
       "https://www.bilibili.com/video/av73065851/?p=3",
       "https://www.bilibili.com/video/av37453473"
@@ -469,9 +419,7 @@
     "id": "208",
     "title": "韩流明星特辑",
     "published_at": "20140810",
-    "guests": [
-      "裴秀智"
-    ],
+    "guests": ["裴秀智"],
     "srcs": [
       "https://www.bilibili.com/video/av73055125/?p=1",
       "https://www.bilibili.com/video/av59014503",
@@ -555,13 +503,7 @@
     "id": "213",
     "title": "恶女特辑",
     "published_at": "20140921",
-    "guests": [
-      "李宥利",
-      "瑞雨",
-      "柳仁英",
-      "金敏瑞",
-      "崔汝真"
-    ],
+    "guests": ["李宥利", "瑞雨", "柳仁英", "金敏瑞", "崔汝真"],
     "srcs": [
       "https://www.bilibili.com/video/av73066055/?p=1",
       "https://www.bilibili.com/video/av29709096",
@@ -573,13 +515,7 @@
     "id": "214",
     "title": "歌王争夺赛",
     "published_at": "20140928",
-    "guests": [
-      "朴英奎",
-      "秋宪坤",
-      "金基邦",
-      "Rain",
-      "Krystal"
-    ],
+    "guests": ["朴英奎", "秋宪坤", "金基邦", "Rain", "Krystal"],
     "srcs": [
       "https://www.bilibili.com/video/av73065140/?p=1",
       "https://www.bilibili.com/video/av50239827"
@@ -589,10 +525,7 @@
     "id": "215",
     "title": "十月的新娘特辑",
     "published_at": "20141005",
-    "guests": [
-      "赵正锡",
-      "申敏儿"
-    ],
+    "guests": ["赵正锡", "申敏儿"],
     "srcs": [
       "https://www.bilibili.com/video/av73065050/?p=1",
       "https://www.bilibili.com/video/av46909195",
@@ -614,11 +547,7 @@
     "id": "217",
     "title": "死亡Bingo竞赛-上村Vs下村",
     "published_at": "20141019",
-    "guests": [
-      "赵镇雄",
-      "金成均",
-      "吴尚镇"
-    ],
+    "guests": ["赵镇雄", "金成均", "吴尚镇"],
     "srcs": [
       "https://www.bilibili.com/video/av73068839/?p=2",
       "https://www.bilibili.com/video/av54388978",
@@ -629,11 +558,7 @@
     "id": "218",
     "title": "RM音乐盛典",
     "published_at": "20141026",
-    "guests": [
-      "吴妍书",
-      "郑恩地",
-      "金智勋"
-    ],
+    "guests": ["吴妍书", "郑恩地", "金智勋"],
     "srcs": [
       "https://www.bilibili.com/video/av73068950/?p=2",
       "https://www.bilibili.com/video/av29410976"
@@ -643,13 +568,7 @@
     "id": "219",
     "title": "女王的归来",
     "published_at": "20141102",
-    "guests": [
-      "韩艺瑟",
-      "朱相昱",
-      "郑糠云",
-      "王智慧",
-      "韩相镇"
-    ],
+    "guests": ["韩艺瑟", "朱相昱", "郑糠云", "王智慧", "韩相镇"],
     "srcs": [
       "https://www.bilibili.com/video/av73341101/?p=1",
       "https://www.bilibili.com/video/av54322669"
@@ -659,13 +578,7 @@
     "id": "220",
     "title": "人类最后的情侣",
     "published_at": "20141109",
-    "guests": [
-      "宋再临",
-      "KANGNAM",
-      "朴秀洪",
-      "张东民",
-      "金民教"
-    ],
+    "guests": ["宋再临", "KANGNAM", "朴秀洪", "张东民", "金民教"],
     "srcs": [
       "https://www.bilibili.com/video/av73126793/?p=1",
       "https://www.bilibili.com/video/av38077998"
@@ -714,13 +627,7 @@
     "id": "224",
     "title": "双面天使",
     "published_at": "20141207",
-    "guests": [
-      "宋佳妍",
-      "韩可露",
-      "全昭旻",
-      "李圣经",
-      "庆收真"
-    ],
+    "guests": ["宋佳妍", "韩可露", "全昭旻", "李圣经", "庆收真"],
     "srcs": [
       "https://www.bilibili.com/video/av73074043/?p=2",
       "https://www.bilibili.com/video/av26036519/?p=2"
@@ -730,10 +637,7 @@
     "id": "225",
     "title": "技术者竞赛",
     "published_at": "20141214",
-    "guests": [
-      "金宇彬",
-      "李玹雨"
-    ],
+    "guests": ["金宇彬", "李玹雨"],
     "srcs": [
       "https://www.bilibili.com/video/av73077508/?p=1",
       "https://www.bilibili.com/video/av55732182"
@@ -743,11 +647,7 @@
     "id": "226",
     "title": "圣诞特辑-国民妈妈",
     "published_at": "20141221",
-    "guests": [
-      "金惠子",
-      "李天熙",
-      "姜惠贞"
-    ],
+    "guests": ["金惠子", "李天熙", "姜惠贞"],
     "srcs": [
       "https://www.bilibili.com/video/av73077634/?p=2",
       "https://www.bilibili.com/video/av35240336"
@@ -757,10 +657,7 @@
     "id": "227",
     "title": "怪物归来",
     "published_at": "20141228",
-    "guests": [
-      "柳贤振",
-      "姜正浩"
-    ],
+    "guests": ["柳贤振", "姜正浩"],
     "srcs": [
       "https://www.bilibili.com/video/av73126744/?p=1",
       "https://www.bilibili.com/video/av25846018/?p=2",
