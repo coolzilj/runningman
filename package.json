@@ -31,7 +31,8 @@
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "update:ep": "jq -s add ./scripts/episodes/*.json > ./src/data/episodes.json"
   },
   "repository": {
     "type": "git",

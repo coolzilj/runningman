@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Running Man 播放器</title>
+    <link href="https://cdn.bootcss.com/dplayer/1.25.0/DPlayer.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="btn-wrapper"></div>
+    <div id="dplayer"></div>
+    <script src="https://cdn.bootcss.com/flv.js/1.5.0/flv.min.js"></script>
+    <script src="https://cdn.bootcss.com/dplayer/1.25.0/DPlayer.min.js"></script>
+    <script>
+        async function loadDB(url) {
+            const res = await fetch(url);
+            const data = await res.json();
+            return data;
+        }
+
+        let dp;
+        let eps = [];
+
+        loadDB('./database.json').then(data => {
+            data.forEach((ep) => {
+                if (ep.downloaded_from) {
+                    const videoUrl = `./videos/${ep.id}.${ep.downloaded_format}`;
+                    const aid = ep.downloaded_from.replace(/https:\/\/www\.bilibili\.com\/video\/av/i,
+                        '');
+                    const danmakuUrl = `https://dplayer.moerats.com/v3/bilibili?aid=${aid}`
+                    const player = {
+                        video: {
+                            url: videoUrl,
+                        },
+                        danmaku: {
+                            addition: [danmakuUrl]
+                        }
+                    }
+                    const newEp = {
+                        ...ep,
+                        player
+                    };
+                    generateButton(newEp);
+                    eps.push(newEp);
+                }
+            })
+
+            dp = new DPlayer({
+                container: document.getElementById('dplayer'),
+                danmaku: {}
+            });
+        });
+
+        function onClick(id) {
+            const ep = eps.find((ep) => {
+                return ep.id === id
+            });
+            dp.switchVideo(ep.player.video, ep.player.danmaku);
+        }
+
+        function generateButton(ep) {
+            let btnWrapper = document.getElementById("btn-wrapper");
+            let btn = document.createElement("button");
+            btn.innerText = `E${ep.id} - ${ep.title} ${ep.published_at}`;
+            btn.onclick = function () {
+                onClick(ep.id)
+            }
+            btnWrapper.appendChild(btn);
+        }
+    </script>
+</body>
+
+</html>
