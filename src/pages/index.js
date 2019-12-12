@@ -104,6 +104,8 @@ const IndexPage = ({ data }) => {
       <div className="lg:fixed lg:w-400 lg:right-0 lg:inset-y-0 lg:overflow-y-scroll	">
         <div className="p-6 text-gray-900 text-xl font-bold text-center">
           {data.site.siteMetadata.title}
+          <br/>
+          2013-2016
         </div>
         {episodes}
       </div>
