@@ -4,19 +4,14 @@
     "title": "十二生肖竞赛",
     "published_at": "20130106",
     "guests": ["崔智友", "李起光", "郑容和", "李宗泫", "Simon D"],
-    "srcs": ["https://www.bilibili.com/video/av18192304"]
+    "srcs": ["https://www.bilibili.com/video/BV1t7411v7JN"]
   },
   {
     "id": "128",
     "title": "死守奖金竞赛 - 钱的战争",
     "published_at": "20130113",
     "guests": ["朴信阳", "严智苑"],
-    "srcs": [
-      "https://www.bilibili.com/video/av25995366",
-      "https://www.bilibili.com/video/av23872874",
-      "https://www.bilibili.com/video/av51738945",
-      "https://www.bilibili.com/video/av44200052"
-    ]
+    "srcs": ["https://www.bilibili.com/video/BV1tt411N7pQ"]
   },
   {
     "id": "129",
@@ -66,10 +61,7 @@
     "title": "亚洲竞赛 - 九剑传说（上）澳门特辑",
     "published_at": "20130217",
     "guests": ["李栋旭", "韩惠珍"],
-    "srcs": [
-      "https://www.bilibili.com/video/av62836075",
-      "https://www.bilibili.com/video/av68560575"
-    ]
+    "srcs": ["https://www.bilibili.com/video/BV1P4411X76o"]
   },
   {
     "id": "134",
